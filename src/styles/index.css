@@ -1,0 +1,37 @@
+@import "../fonts/index.css";
+@import "./water.css";
+:root {
+  --surface-1: hsl(224, 33%, 20%);
+  --surface-2: hsl(224, 25%, 27%);
+  --surface-1-opaque: hsla(224, 33%, 20%, 90%);
+  --surface-3: hsl(224, 33%, 42%);
+  --white: #e9eaec;
+  --beige: #f0ede6;
+  --yellow: hsl(40, 48%, 73%);
+  --dark-blue: hsl(224, 33%, 5%);
+}
+body {
+  font-family: "Alegreya Sans", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-shadow {
+  text-shadow: 0px 1px 6px rgba(17, 17, 17, 0.7);
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+.modal-background {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.name-box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
