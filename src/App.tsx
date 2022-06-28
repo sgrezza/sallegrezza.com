@@ -5,7 +5,7 @@ const App = () => {
         <h1>Spencer Allegrezza's website</h1>
         <a href="https://github.com/sgrezza" className="link with-icon">
           <img
-            src="src/assets/Github-Mark-120px-plus.png"
+            src="public/Github-Mark-120px-plus.png"
             alt="Github logo"
             className="icon"
           />
